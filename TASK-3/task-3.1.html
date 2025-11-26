@@ -1,0 +1,126 @@
+<br>
+    <head>
+        <meta charset="UTF-8">
+        <title>TASK-3.1</title>
+    </head>
+<br>
+<h1>Basic HTML Form Elements</h1>
+<fieldset>
+    <legend>Personal information</legend>
+    <label for="name" >Name (Text):  </label>
+    <input type="text" name="username" id="name">
+</fieldset>
+<hr>
+<fieldset>
+    <legend>Contact & Security</legend>
+    <label for="email">Email:</label>
+    <input type="email" name="useremail" id="email">
+</br>
+</br>
+    <label for="password">Password:</label>
+    <input type="password" name="userpassword" id="password">  
+</fieldset>
+<hr>
+<fieldset>
+<legend>Preferences</legend>
+<label for="favcolor">Favourite Color:</label>
+<input type="color" name="userfavouritecolor" id="favcolor" value="#FF0000">
+</fieldset>
+<hr>
+<br>
+<br>
+<fieldset>
+<legend>Range & Options</legend>
+<label for="range">Volume(range 0-100):</label>
+<input type="range" name="userrange" id="range" value="min 50, max 70">
+</br>
+</br>
+<p>Select your favorite Pet:</p>
+</br>
+<input type="radio" name="user-fav-pet" value="Dog" id="dog">
+<label for="Dog">Dog</label>
+</br>
+<input type="radio" name="user-fav-pet" value="Cat">
+<label for="Cat">Cat</label>
+</br>
+<input type="radio" name="user-fav-pet" value="Bird">
+<label for="Bird">Bird</label>
+</br>
+</br>
+<p>Interests(Check all that apply):</p>
+</br>
+
+<input type="checkbox" name="usercheckbox" value="Coding" id="checkbox">
+<label for="chechbox">Coding</label>
+</br>
+<input type="checkbox" name="usercheckbox" value="Music" id="checkbox">
+<label for="chechbox">Music</label>
+</br>
+<input type="checkbox" name="usercheckbox" value="Travel" id="checkbox" checked>
+<label for="chechbox">Travel</label>
+</fieldset>
+<hr>
+<fieldset>
+    <legend>Selection</legend>
+    <label for="country">Choose a Country:</label>
+    <select name="user country" id="country">
+        <option value="EGYPT">Egypt</option>
+        <option value="UNITED KINGDOM" selected>United Kingdom </option>
+        <option value="INDIA">INDIA</option>
+    </select>
+</fieldset>
+<fieldset>
+<legend>Comments</legend>
+<label for="comments"> your Comments (Textarea):</label>
+    </br>
+<textarea cols="30" rows="5" id="comments" name="comment"></textarea>
+</fieldset>
+<hr>
+<fieldset>
+    <legend>File Upload</legend>
+    <label for="file">Upload a File;</label>
+    <input type="file" name="userfile" id="file">
+</fieldset>
+<hr>
+<fieldset>
+    <legend>Specialized Text Inputs</legend>
+    <label for="search">Search this site:</label>
+    <input type="search" name="usersearch" id="search">
+    </br>
+    </br>
+    <label for="url">Your Website URL:</label>
+    <input type="url" name="userurl" id="url" placeholder="https://example.com ">
+</fieldset>
+<hr>
+<fieldset>
+    <legend>Date & Time</legend>
+    <label for="date">Date:</label>
+    <input type="date" name="userdate" id="date">
+    </br>
+    </br>
+    <label for="month">Month:</label>
+    <input type="month" name="usermonth" id="month">
+    </br>
+    </br>
+    <label for="time">Time:</label>
+    <input type="time" name="usertime" id="time">
+</fieldset>
+<hr>
+<fieldset>
+    <legend>Datalist (Sugesstions)</legend>
+    <label for="browser">Choose a Browser (with suggestion):</label>
+    <input type="text" name="userbrowser" id="userbrowser" list="browser"> <!-- id of input must be differnt from id of datalist -->
+    <datalist  id="browser">
+        <option value="Chrome">
+        <option value="firefox">
+        <option value="microsoftedge">
+    </datalist>
+
+</fieldset>
+<hr>
+<input type="submit" value="Submit Form">
+<input type="reset" value="Clear Form">
+
+</body>
+
+</html>
