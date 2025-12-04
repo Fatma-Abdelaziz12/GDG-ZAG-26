@@ -1,0 +1,132 @@
+ header{
+            text-align: center;   
+            background:#3258a8 ;
+            color:white;
+            width:100%;
+            height:100px;
+            padding:20px;
+        }
+        body{
+            text-align: left ;
+            background:#c9d6f3;
+            color:#0d3ca9;
+            margin:0;
+            padding:0;
+            
+        }
+        footer{
+            text-align: center;
+            background:#3258a8;
+            color:white;
+            height:50px;
+            width:100%;
+            padding: 20px 0px;
+            margin:0;
+            
+        }
+        .about-wrapper{
+            display:flex;
+            justify-content: center;
+            
+        }
+        .about-title{
+            background:white;
+            color:#3258a8;
+            padding:10px;
+            border:2px  solid #3258a8;
+            font-weight: bold;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+        
+        .about-container{
+            width:85%;
+            margin-top: 10px ; 
+            padding:10px;
+            border:1px solid #3258a8;
+            background: white;
+            font-family: "poppins", sans-serif;
+        
+        }
+        .about-box{
+            height:150px;
+            background:white;
+            padding:15px;
+            overflow-y: scroll;
+            color:#3258a8;
+            line-height: 1.5;   
+
+
+        }
+        
+        
+        .about-me{
+         font-size: 17px;
+         color:rgb(18, 6, 101);
+        font-weight: bold;
+        }
+
+        .skills
+        {
+            margin-left:50px;
+        }
+    
+        
+        
+        
+        .projects{
+            width:90%;
+            margin:75px;
+            text-align: left;
+            background:white;
+        }
+        .project-container{ 
+            justify-content:center;
+            display:flex;
+            background:white;
+            height:800px;
+
+        }
+        .project-card{
+            width:250px;
+            height:300px;
+            text-align:center;
+            background:white;
+            margin:30px;
+            border: 2px solid black;
+        }
+        .project-card img{
+            width:100px;
+            height:100px;
+            justify-content: center;
+            align-items: center;
+            display: block;
+            margin:0 auto;
+            border:50%;
+            
+        }
+        .works-title{
+            text-align:left;
+            margin-left: 15px;
+            margin-top:25px;
+            background:white;
+            color:#3258a8 ;
+            margin-left:20px;   
+            position:absolute;
+            left:70px;
+            bottom:20px;   }
+        .github-btn{
+            display:inline-block;
+            color:white;
+            border:3px solid #3258a8;
+            background:#3258a8;
+            position:absolute;
+            left:85px;
+            bottom:0px;
+
+        }
+        .github-btn:hover{
+            background: #3258a8;
+            color:white;
+    
+        }
