@@ -1,0 +1,39 @@
+#container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+div img {
+  width: 100px;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer
+
+}
+button:hover{
+    background-color:blue;
+}
+.price{
+    color: red;
+    font-weight: bold;
+}
+.quantity{
+    color: blue;
+    font-weight: bold;
+}
+
